@@ -1,0 +1,60 @@
+==================================================
+  SINISTER'S PARK MUMBLE — SETUP COMPLETE
+==================================================
+
+CONNECT:
+  Server:  sinisterspark.duckdns.org
+  Port:    64738
+
+Your Mumble is pre-configured — just click Connect.
+
+==================================================
+  ENABLE PROXIMITY VOICE (one-time, 2 minutes)
+==================================================
+
+1. Join The Isle: Evrima — Sinister's Park server
+
+2. Type this in game chat:
+   !verify
+
+3. Check your Discord DMs — SPS bot sends you a code
+
+4. In Mumble chat, type your code:
+   !verify 123456    (replace with your actual code)
+
+5. Done — proximity voice works forever.
+   The system auto-sorts you into voice channels based
+   on your in-game location.
+
+==================================================
+  CONTROLS
+==================================================
+  Push-to-Talk:  T key
+
+  Open Mumble settings:  Configure > Settings
+  Set your own PTT key:  Shortcuts tab > Add > Push-to-Talk
+
+==================================================
+  TROUBLESHOOTING
+==================================================
+
+  "No code in Discord DMs?"
+  — Use /link in the Sinister's Park Discord first to
+    connect your Steam account to Discord.
+  — Then type !verify in game again.
+
+  "Can't hear anyone?"
+  — Make sure you're in The Isle game.
+  — You are auto-moved to the right voice channel by
+    the server — no need to switch channels manually.
+
+  "Wrong name in Mumble?"
+  — Go to Server > Disconnect
+  — Edit your username in the Connect window
+  — Reconnect
+
+  Need help? Open a ticket in Discord.
+
+==================================================
+  Sinister's Park — sinisterspark.duckdns.org:64738
+==================================================
