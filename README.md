@@ -4,7 +4,7 @@ Proximity voice chat installer for The Isle: Evrima — Sinister's Park.
 
 ## Download
 
-Get the latest installer from [Releases](https://github.com/Sinister-s-Park/Sinister-s-Park-Mumble/releases/latest).
+Get the latest installer from [Releases](https://github.com/DrSinister31/Sinister-s-Park-Mumble/releases/latest).
 
 ## What It Does
 
