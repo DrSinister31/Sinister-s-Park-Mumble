@@ -14,46 +14,71 @@ Your Mumble is pre-configured — just click Connect.
 
 1. Join The Isle: Evrima — Sinister's Park server
 
-2. Type this in game chat:
-   !verify
+2. Ask SPS on Discord: "verify my voice"
+   (or type !verify in game chat)
 
-3. Check your Discord DMs — SPS bot sends you a code
+3. SPS DMs you a 6-digit code on Discord
 
-4. In Mumble chat, type your code:
+4. In Mumble chat, type:
    !verify 123456    (replace with your actual code)
 
-5. Done — proximity voice works forever.
-   The system auto-sorts you into voice channels based
-   on your in-game location.
+5. Done — voice auto-sorts by in-game location forever.
 
 ==================================================
   CONTROLS
 ==================================================
   Push-to-Talk:  T key
 
-  Open Mumble settings:  Configure > Settings
-  Set your own PTT key:  Shortcuts tab > Add > Push-to-Talk
+  Change PTT key:  Configure > Settings > Shortcuts
+  > Add > Push-to-Talk > press your key
+==================================================
+
+==================================================
+  UNINSTALL
+==================================================
+  Windows:  Control Panel > Uninstall a program >
+            "Sinister's Park Mumble"
+
+  This only removes our connection settings.
+  Mumble stays installed. Your plugins for
+  other servers stay untouched.
+
+==================================================
+  REINSTALL / RESET CONFIG
+==================================================
+  Just run the installer again. It detects Mumble
+  is already installed and only reconfigures the
+  Sinister's Park server settings.
+
+==================================================
+  MANUAL SETUP (no installer)
+==================================================
+  1. Open Mumble > Server > Connect > Add New
+  2. Address:  sinisterspark.duckdns.org
+     Port:     64738
+     Username: your in-game name
+  3. Click Connect
 
 ==================================================
   TROUBLESHOOTING
 ==================================================
 
   "No code in Discord DMs?"
-  — Use /link in the Sinister's Park Discord first to
-    connect your Steam account to Discord.
-  — Then type !verify in game again.
+  — Use /link in Discord first to connect your
+    Steam account, then ask SPS "verify my voice".
 
   "Can't hear anyone?"
-  — Make sure you're in The Isle game.
-  — You are auto-moved to the right voice channel by
-    the server — no need to switch channels manually.
+  — Are you in-game AND verified? Both needed.
+    The bridge auto-moves verified players to
+    the right channel based on map position.
 
   "Wrong name in Mumble?"
-  — Go to Server > Disconnect
-  — Edit your username in the Connect window
-  — Reconnect
+  — Server > Disconnect > edit Username > reconnect
 
-  Need help? Open a ticket in Discord.
+  "Do I need a plugin?"
+  — No. No spatial plugin required.
+
+  Need help? Ask SPS or open a ticket in Discord.
 
 ==================================================
   Sinister's Park — sinisterspark.duckdns.org:64738
